@@ -18,7 +18,7 @@ export default function BodyGoNow() {
          active:text-pink-500
          focus:outline-none focus:ring
        "
-       href="/get-started"
+       href="/login"
      >
        <span className="text-sm font-medium"> Harekete Geç </span>
  
