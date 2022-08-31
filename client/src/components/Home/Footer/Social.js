@@ -16,7 +16,7 @@ export default function Social() {
      <div className="flex justify-center gap-4 mt-6 text-gray-300 lg:justify-start">
        <a
          className="transition hover:opacity-75"
-         href=""
+         href="https://www.facebook.com/fedevclub"
          target="_blank"
          rel="noreferrer"
        >
@@ -38,7 +38,7 @@ export default function Social() {
  
        <a
          className="transition hover:opacity-75"
-         href=""
+         href="https://instagram.com/fedevclub"
          target="_blank"
          rel="noreferrer"
        >
@@ -60,7 +60,7 @@ export default function Social() {
  
        <a
          className="transition hover:opacity-75"
-         href=""
+         href="https://twitter.com/fedevclub"
          target="_blank"
          rel="noreferrer"
        >
@@ -80,7 +80,7 @@ export default function Social() {
  
        <a
          className="transition hover:opacity-75"
-         href=""
+         href="https://www.github.com/fedevclub"  
          target="_blank"
          rel="noreferrer"
        >

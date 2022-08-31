@@ -1,10 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function BodyContent() {
   return (
      <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
-     <a
-       className="
+     <Link className="
          block
          p-8
          transition
@@ -12,10 +12,8 @@ export default function BodyContent() {
          shadow-xl
          rounded-xl
          hover:shadow-pink-500/10 hover:border-pink-500/10
-       "
-       href=""
-     >
-       <svg
+       " to="/blog" >
+     <svg
          xmlns="http://www.w3.org/2000/svg"
          className="w-10 h-10 text-pink-500"
          fill="none"
@@ -40,9 +38,9 @@ export default function BodyContent() {
          Site içinde bulunan ve üye olan herkesin makale yayınlayabildiği
          etkileşimli sisteme dahil ol
        </p>
-     </a>
+     </Link>
  
-     <a
+     <Link
        className="
          block
          p-8
@@ -52,7 +50,7 @@ export default function BodyContent() {
          rounded-xl
          hover:shadow-pink-500/10 hover:border-pink-500/10
        "
-       href="/"
+       to="/support"
      >
        <svg
          xmlns="http://www.w3.org/2000/svg"
@@ -79,9 +77,9 @@ export default function BodyContent() {
          Öğrenirken veya çalışırken takıldığın problemlere destek bulabileceğin
          bir kanal
        </p>
-     </a>
+     </Link>
  
-     <a
+     <Link
        className="
          block
          p-8
@@ -91,7 +89,7 @@ export default function BodyContent() {
          rounded-xl
          hover:shadow-pink-500/10 hover:border-pink-500/10
        "
-       href="/"
+       to="/mentorship"
      >
        <svg
          xmlns="http://www.w3.org/2000/svg"
@@ -117,9 +115,9 @@ export default function BodyContent() {
        <p className="mt-1 text-sm text-gray-300">
          Mentor olmak istiyorsan hemen başvur!
        </p>
-     </a>
+     </Link>
  
-     <a
+     <Link
        className="
          block
          p-8
@@ -129,7 +127,7 @@ export default function BodyContent() {
          rounded-xl
          hover:shadow-pink-500/10 hover:border-pink-500/10
        "
-       href="/"
+       to="/teams"
      >
        <svg
          xmlns="http://www.w3.org/2000/svg"
@@ -155,9 +153,9 @@ export default function BodyContent() {
        <p className="mt-1 text-sm text-gray-300">
          Ekibini oluşturmanın ve beraber proje geliştirmenin en hızlı yolu
        </p>
-     </a>
+     </Link>
  
-     <a
+     <Link
        className="
          block
          p-8
@@ -167,7 +165,7 @@ export default function BodyContent() {
          rounded-xl
          hover:shadow-pink-500/10 hover:border-pink-500/10
        "
-       href="/"
+       to="/about"
      >
        <svg
          xmlns="http://www.w3.org/2000/svg"
@@ -194,9 +192,9 @@ export default function BodyContent() {
          2022 yılında çalışmalarına başlayan FeDevClub hakkında daha fazla şey
          öğren
        </p>
-     </a>
+     </Link>
  
-     <a
+     <Link
        className="
          block
          p-8
@@ -206,7 +204,7 @@ export default function BodyContent() {
          rounded-xl
          hover:shadow-pink-500/10 hover:border-pink-500/10
        "
-       href="/"
+        to="/faq"
      >
        <svg
          xmlns="http://www.w3.org/2000/svg"
@@ -230,7 +228,7 @@ export default function BodyContent() {
        <h3 className="mt-4 text-xl font-bold text-white">S.S.S.</h3>
  
        <p className="mt-1 text-sm text-gray-300">Sıkça sorulan sorulara göz at</p>
-     </a>
+     </Link>
    </div>
   )
 }
