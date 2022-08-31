@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Register() {
   return (
@@ -104,7 +105,7 @@ export default function Register() {
      
            <p className="text-sm text-center text-white">
              Zaten hesabın var mı?
-             <a className="underline" href="/login">Giriş yap!</a>
+             <Link className="underline" to="/login">Giriş yap!</Link>
            </p>
          </form>
        </div>

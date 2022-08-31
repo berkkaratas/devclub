@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Login() {
       /*
@@ -99,7 +100,7 @@ export default function Login() {
 
       <p className="text-sm text-center text-white">
         Hesabın yok mu?
-        <a className="underline" href="/register">Kayıt ol!</a>
+        <Link className="underline" to="/register">Kayıt ol!</Link>
       </p>
     </form>
   </div>
