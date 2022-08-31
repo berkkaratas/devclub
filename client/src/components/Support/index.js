@@ -1,7 +1,10 @@
 import React from 'react'
+import PendingFeatures from '../WorkInProgress/PendingFeatures'
 
 export default function Support() {
   return (
-    <div>Support</div>
+    <div>
+      <PendingFeatures></PendingFeatures>
+    </div>
   )
 }
