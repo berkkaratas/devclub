@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../Home/Header'
 import BlogHeadher from './BlogHeadher'
 import BlogList from './BlogList'
 import BlogSideMenu from './BlogSideMenu'

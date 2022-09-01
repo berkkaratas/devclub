@@ -1,10 +1,14 @@
 import React from 'react'
-import PendingFeatures from '../WorkInProgress/PendingFeatures'
+import Header from '../Home/Header'
+import Footer from '../Home/Footer'
+import AboutContent from './AboutContent'
 
 export default function About() {
   return (
     <div>
-      <PendingFeatures/>
+      <Header></Header>
+      <AboutContent></AboutContent>
+      <Footer></Footer>
     </div>
   )
 }
