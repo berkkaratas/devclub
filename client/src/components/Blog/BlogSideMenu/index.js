@@ -19,7 +19,7 @@ export default function BlogSideMenu() {
 
         <span className="ml-3 text-sm font-medium"> Takip Ettiklerim </span>
       </a>
-      <hr></hr>
+      <hr className='border-b border-gray-700 '></hr>
 
       
       <a
@@ -47,7 +47,7 @@ export default function BlogSideMenu() {
 
         <span className="ml-3 text-sm font-medium"> Ara </span>
       </a>
-      <hr></hr>
+      <hr className='border-b border-gray-700 '></hr>
       <a
         href="/blog#"
         className="flex items-center px-4 py-2 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -56,7 +56,7 @@ export default function BlogSideMenu() {
 
         <span className="ml-3 text-sm font-medium"> Gönderi Oluştur </span>
       </a>
-      <hr></hr>
+      <hr className='border-b border-gray-700'></hr>
       <a
         href="/blog#"
         className="flex items-center px-4 py-2 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -73,7 +73,7 @@ export default function BlogSideMenu() {
 
         <span className="ml-3 text-sm font-medium"> Okuma Geçmişin </span>
       </a>
-      <hr></hr>
+      <hr className='border-b border-gray-700'></hr>
 
       <a
         href="/blog#"
