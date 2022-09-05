@@ -15,6 +15,7 @@ import Board from './components/Board';
 import Jobs from './components/Jobs';
 import Feedback from './components/Feedback';
 import Terms from './components/Terms';
+import Post from './components/Blog/Post';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="about" element={<About />} />
         <Route path="applications" element={<Applications />} />
-        <Route path="blog" element={<Blog />} />
+        <Route path="blog" element={<Blog />} ></Route>
+        <Route path="post" element={<Post />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
         <Route path="support" element={<Support />} />  

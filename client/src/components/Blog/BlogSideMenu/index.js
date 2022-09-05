@@ -48,14 +48,14 @@ export default function BlogSideMenu() {
         <span className="ml-3 text-sm font-medium"> Ara </span>
       </a>
       <hr className='border-b border-gray-700 '></hr>
-      <a
-        href="/blog#"
+      <Link
+        to="/post"
         className="flex items-center px-4 py-2 rounded-lg hover:bg-gray-100 hover:text-gray-700"
       >
         <svg class="w-5 h-5 opacity-75" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
 
         <span className="ml-3 text-sm font-medium"> Gönderi Oluştur </span>
-      </a>
+      </Link>
       <hr className='border-b border-gray-700'></hr>
       <a
         href="/blog#"
